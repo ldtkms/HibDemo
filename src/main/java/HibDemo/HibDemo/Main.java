@@ -11,6 +11,7 @@ public class Main {
 	private static SessionFactory factory;
 	private static Session session;
 	
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 
 		// creating configuration object
